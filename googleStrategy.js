@@ -18,9 +18,9 @@ image: imageUrl,
 
 }
 passport.use(new GoogleStrategy({
-clientID:'87278538978-bepoevghufbg8krt9ftu4mcdpmokj82p.apps.googleusercontent.com' ,
-clientSecret: 'FwT0eUeZMh4Yspc1KYkepNZf',
-callbackURL: 'http://localhost:3000/callback',
+clientID:'insert client id here' ,
+clientSecret: 'insert client secret here',
+callbackURL: 'mention callback same as dev console',
 accessType: 'offline',
 userProfileURL: 'https://www.googleapis.com/oauth2/v3/userinfo',
 },

@@ -22,9 +22,9 @@ async function extractProfile(email,profile) {
 
 
 passport.use('facebook',new FacebookStrategy({
-  clientID: "900540727128971",
-  clientSecret: "799a6161cba0dfa1a6a25515b16defc6",
-  callbackURL: "http://localhost:3000/auth/facebook/callback",
+  clientID: "insert client id here",
+  clientSecret: "insert client secret here ",
+  callbackURL: "insert callback here same as dev console ",
   profileFields: ['id', 'displayName', 'photos', 'email']
 },
 async (accessToken, refreshToken,profile,email, cb) => {
